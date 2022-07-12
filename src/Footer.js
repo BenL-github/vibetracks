@@ -23,7 +23,7 @@ function Footer() {
   const description = "Some description at bottom";
 
   return (
-    <Box component="footer" sx={{ backgroundColor: '#2d3139', py: 6 }}>
+    <Box component="footer" sx={{ backgroundColor: '#2d313900', py: 6 }}>
       <Container maxWidth="lg">
         {/* <Typography color="white" variant="h6" align="center" gutterBottom>
           {title}

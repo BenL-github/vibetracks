@@ -11,7 +11,8 @@ function App() {
               height: "100vh ", 
               backgroundRepeat: 'no-repeat',
               backgroundSize: 'cover', 
-              backgroundColor:'#2d3139'
+              backgroundColor:'#2d3139',
+              background: 'linear-gradient(#2d3139, #1c1c1c)'
       }}>
         <ButtonAppBar/>
         <Hero/>

@@ -6,12 +6,13 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
+import { Link } from '@mui/material';
 
 export default function ButtonAppBar() {
   return (
     <Box sx={{ flexGrow: 1, textAlign:'center'}}>
-      <AppBar elevation="0" position="static" className="navigation" sx={{backgroundColor:'#2d3139'}}>
-        <Toolbar sx={{backgroundColor:'#2d3139', width:'50%', marginLeft:'auto',marginRight:'auto'}}>
+      <AppBar elevation="0" position="static" className="navigation" sx={{backgroundColor:'#2d313900'}}>
+        <Toolbar sx={{backgroundColor:'#2d313900', width:'50%', marginLeft:'auto',marginRight:'auto'}}>
           <IconButton 
             size="large"
             edge="start"
@@ -22,9 +23,9 @@ export default function ButtonAppBar() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            VibeTracks
+            <Link href="/" color="inherit" underline="none">VibeTracks</Link>
           </Typography>
-          <Button color="inherit">Login</Button>
+          <Button color="inherit">Add</Button>
         </Toolbar>
       </AppBar>
     </Box>
